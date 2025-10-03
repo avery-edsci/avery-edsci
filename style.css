@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#name {
+    font-size: 50px;
+}
+
+.details {
+    font-size: 20px;
+    color: blue;
+}
+
+.m-details {
+    font-size: 10px;
+    color: red;
+}
