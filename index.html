@@ -4,19 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
+    <title>Slambook</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 id="name">Avery Neliel H. Tolentino</h1>
-    <h3 class="details">Grade 12 - Pintaflores</h3>
-    <p class="m-details">STUDENT NO. 20-000356</p>
-    <h3 class="details">Mr. Lester Sireno</h3>
-    <p class="m-details">ADVISER</p>
-    <br>
-    <p class="details">S.Y. 2025-2026</p>
-    <h3 class="g-lvl">SENIOR HIGHSCHOOL</h3>
+    <form action="submit">
+        <div class="l-align">
+            <!--Name-->
+            <label for="user-name" class="f-bold">Name:</label><br>
+            <input type="text" id="user-name"><br>
+            <!--Email-->
+            <label for="user-email" class="f-bold">Email:</label><br>
+            <input type="email" id="user-email"><br>
+            <!--Telephone-->
+            <label for="user-tel" class="f-bold">Telephone No.:</label><br>
+            <input type="tel" id="user-tel"><br>
+            <!--FB URL-->
+            <label for="fb-url" class="f-bold">Facebook Link/URL:</label><br>
+            <input type="url" id="fb-url"><br>
+            <!--Search-->
+            <label for="search" class="f-bold">Search:</label><br>
+            <input type="search" id="search"><br>
+            <!--Favorite Number-->
+            <label for="fav-num" class="f-bold">Favorite Number:</label><br>
+            <input type="number" id="fav-num" min="0" max="20"><br>
+            <!--Motto-->
+            <label for="motto" class="f-bold">Motto:</label><br>
+            <textarea name="motto" id="motto" rows="3"></textarea><br>
+        </div>
+        <!--Checkbox-->
+        <fieldset>
+            <legend>Preferred Snack: Which snacks do you enjoy the most?</legend>
+            <input type="checkbox" id="chips" name="snack" value="1">
+            <label for="chips">Chips</label><br>
+            <input type="checkbox" id="chocolates" name="snack" value="2">
+            <label for="chocolates">Chocolates</label><br>
+            <input type="checkbox" id="fruits" name="snack" value="3">
+            <label for="Fruits">Fruits</label><br>
+            <input type="checkbox" id="cookies" name="snack" value="4">
+            <label for="cookies">Cookies</label><br>
+        </fieldset>
+        <!--Radio Button-->
+        <fieldset>
+            <legend>Dream Vacation: If you could go anywhere for a vacaion, where would you choose?</legend>
+            <input type="radio" id="beach" name="vacation" value="1">
+            <label for="beach">Beach</label><br>
+            <input type="radio" id="mountains" name="vacation" value="2">
+            <label for="mountains">Mountains</label><br>
+            <input type="radio" id="city" name="vacation" value="3">
+            <label for="city">City</label><br>
+            <input type="radio" id="countryside" name="vacation" value="4">
+            <label for="countryside">Countryside</label><br>
+        </fieldset>
+        <!--Radio Button-->
+        <fieldset>
+            <legend>Dream Vacation: If you could go anywhere for a vacaion, where would you choose?</legend>
+            <select name="music" id="music">
+                <option value="1">Pop</option>
+                <option value="2">Rock</option>
+                <option value="3">Hip-hop</option>
+                <option value="4">Classical</option>
+            </select>
+        </fieldset>
+        <!--Buttons-->
+        <button type="submit">Submit</button> <br>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 
 </html>
