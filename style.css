@@ -1,19 +1,25 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
 }
 
-#name {
-    font-size: 50px;
+body {
+    background-color: rgb(209, 185, 163);
 }
 
-.details {
-    font-size: 20px;
-    color: blue;
+form {
+    padding: 50px;
+    margin: 100px;
+    border: outset;
+    background-color: rgb(252, 240, 227);
 }
 
-.m-details {
-    font-size: 10px;
-    color: red;
+.l-align {
+    text-align: left;
+}
+
+.f-bold {
+    font-weight: bold;
 }
